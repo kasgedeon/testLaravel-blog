@@ -26,3 +26,7 @@ Route::get('/about', 'PagesController@about'); //About
 Route::get('/services', 'PagesController@services'); //Services
 
 Route::resource('posts', 'PostsController');
+
+Auth::routes();
+
+Route::get('/dashboard', 'DashboardController@index');
