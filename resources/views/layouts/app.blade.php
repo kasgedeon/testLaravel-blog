@@ -14,8 +14,8 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
+    @include('inc.navbar')
     <div id="app">
-      @include('inc.navbar')
       <div class='container'>
         @include('inc.messages')
         @yield('content')

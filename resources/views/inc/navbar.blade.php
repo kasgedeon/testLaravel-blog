@@ -1,6 +1,6 @@
 <style>
   #main {
-    font-size: 1.1em;
+    font-size: 1.2em;
     border: none;
     border-radius: 0;
     background: #eee;
@@ -18,7 +18,7 @@
 </style>
 
 
-<nav class="navbar navbar-inverse" id='main'>
+<nav class="navbar navbar-default" id='main'>
     <div class="container">
         <div class="navbar-header">
 
@@ -31,7 +31,7 @@
             </button>
 
             <!-- Branding Image -->
-            <a class="navbar-brand" href="{{ url('/') }}">
+            <a style="font-size: 1.2em" class="navbar-brand" href="{{ url('/') }}">
                 {{ config('app.name', 'Laravel') }}
             </a>
         </div>

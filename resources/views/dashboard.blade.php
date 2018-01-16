@@ -1,14 +1,14 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+<div class="container" style='margin-top: 20px'>
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
-                <div class="panel-heading">Dashboard</div>
+            <div class="panel panel-default" style='background: #eee'>
+                <div class="panel-heading" style='background: #eee'>Dashboard</div>
 
                 <div class="panel-body">
-                    <a href="/posts/create" class="btn btn-primary">Create Post</a>
+                    <a href="/posts/create" class="btn btn-primary" style='box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.2)'>Create Post</a>
                     <h3>Your Blog Posts</h3>
 
                     @if(count($posts) > 0)
