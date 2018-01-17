@@ -32,7 +32,8 @@
 
             <!-- Branding Image -->
             <a style="font-size: 1.2em" class="navbar-brand" href="{{ url('/') }}">
-                {{ config('app.name', 'Laravel') }}
+                <!--{{ config('app.name', 'Laravel') }}-->
+				<img src='/storage/logo.png' style='width: 50px; height: 38px; margin-top: -8px'>
             </a>
         </div>
 
